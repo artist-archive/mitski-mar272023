@@ -1,0 +1,65 @@
+html{
+    background:#000d38;
+}
+body{
+  background:#000d38;
+  margin:0;
+  padding:0;
+  width:100vw;
+  min-height: 100vh;
+  font-family: serif;
+  color:#fff;
+}
+#bg{
+  width:100vw;
+  height: 100vh;
+  background: url(images/bg2.jpg);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#main{
+  text-align: center;
+  width: 100vw;
+}
+a{
+  color:#fff;
+  text-decoration: none;
+  font-style: italic;
+}
+a:hover{
+  border-bottom: 1px solid #fff;
+}
+#socials a{
+  padding:0 5px;
+}
+input[type=email]{
+  -webkit-appearance:none;
+  border-radius: 0;
+  background:transparent
+  border:1px solid #1a1a1a;
+  padding:5px;
+}
+input[type=submit]{
+  -webkit-appearance:none;
+  border-radius: 0;
+  background:transparent
+  border:1px solid #1a1a1a;
+  padding:5px;
+  background:#1a1a1a;
+  color:#eae9e6;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+  color:#1a1a1a;
+  background:#eae9e6;
+}
+
+iframe{
+  width:80%;
+  height:60%;
+  max-width:800px;
+  max-height:600px;
+  margin:10% 0 2%;
+}
+archived by @mitskistanfrfr on twt
